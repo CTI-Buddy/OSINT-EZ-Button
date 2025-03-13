@@ -1,5 +1,5 @@
-OSINT EZ Button
-🔍 Overview
+OSINT EZ Button  
+🔍 Overview  
 OSINT EZ Button is a Python-based automated reconnaissance tool that gathers open-source intelligence (OSINT) on domains, IPs, emails, and usernames using publicly available APIs.
 
 🚀 Features
