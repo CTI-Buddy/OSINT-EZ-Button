@@ -5,7 +5,7 @@ Here’s a **README.md** for your GitHub repo:
 # OSINT EZ Button 
 
 ## 🔍 Overview  
-**OSINT EZ Button ** is a Python-based **automated reconnaissance tool** that gathers open-source intelligence (OSINT) on domains, IPs, emails, and usernames using publicly available APIs.  
+**OSINT EZ Button** is a Python-based **automated reconnaissance tool** that gathers open-source intelligence (OSINT) on domains, IPs, emails, and usernames using publicly available APIs.  
 
 ## 🚀 Features  
 - **Domain Reconnaissance** – WHOIS lookup, VirusTotal domain reputation  
