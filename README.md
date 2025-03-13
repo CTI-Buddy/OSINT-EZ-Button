@@ -12,7 +12,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourgithub/osint_recon.git  
+git clone https://github.com/GrandpaRoger/OSINT-EZ-Button.git
 cd osint_recon
 Install dependencies:
 bash
