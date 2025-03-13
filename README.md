@@ -1,6 +1,4 @@
-Here’s a **README.md** for your GitHub repo:  
 
----
 
 # OSINT EZ Button 
 
@@ -61,6 +59,4 @@ Pull requests are welcome! Feel free to improve functionality, add more OSINT so
 ## 🐛 Issues  
 Report bugs and feature requests on [GitHub Issues](https://github.com/GrandpaRoger/OSINT-EZ-Button/issues).  
 
----
 
-Let me know if you’d like any modifications! 🚀
