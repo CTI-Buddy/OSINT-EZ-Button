@@ -1,0 +1,77 @@
+.TH OSINT_RECON 1 "March 2025" "OSINT Recon Tool" "User Commands"
+.SH NAME
+osint_recon \- Automated OSINT reconnaissance tool
+
+.SH SYNOPSIS
+.B osint_recon
+[\fI--target\fR \fITARGET\fR] [\fI--mode\fR \fIMODE\fR] [\fI--shodan\fR \fISHODAN_API_KEY\fR]
+[\fI--hibp\fR \fIHIBP_API_KEY\fR] [\fI--virustotal\fR \fIVT_API_KEY\fR] [\fI--greynoise\fR \fIGN_API_KEY\fR]
+
+.SH DESCRIPTION
+\fBosint_recon\fR is a Python-based automated OSINT (Open Source Intelligence) reconnaissance tool 
+that gathers intelligence on domains, IPs, emails, and usernames using various public APIs.
+
+.SH OPTIONS
+.TP
+\fB--target\fR \fITARGET\fR
+Specifies the target to investigate. This can be a domain, IP address, email, or username.
+
+.TP
+\fB--mode\fR \fIMODE\fR
+Determines the type of investigation to perform. Possible values:
+.RS
+.IP \[bu] 2
+domain - Perform WHOIS and VirusTotal checks.
+.IP \[bu] 2
+ip - Query Shodan and GreyNoise.
+.IP \[bu] 2
+email - Check HaveIBeenPwned (HIBP) for breaches.
+.IP \[bu] 2
+username - Query GitHub for user information.
+.RE
+
+.TP
+\fB--shodan\fR \fISHODAN_API_KEY\fR
+Provide a Shodan API key to retrieve information on open ports and services.
+
+.TP
+\fB--hibp\fR \fIHIBP_API_KEY\fR
+Provide a HaveIBeenPwned API key to check if an email has been involved in a data breach.
+
+.TP
+\fB--virustotal\fR \fIVT_API_KEY\fR
+Provide a VirusTotal API key to check domain reputation.
+
+.TP
+\fB--greynoise\fR \fIGN_API_KEY\fR
+Provide a GreyNoise API key to determine if an IP is associated with known scanners.
+
+.SH EXAMPLES
+Run a domain lookup with VirusTotal:
+.EX
+$ osint_recon --target example.com --mode domain --virustotal YOUR_VT_API_KEY
+.EE
+
+Check an IP in Shodan and GreyNoise:
+.EX
+$ osint_recon --target 8.8.8.8 --mode ip --shodan YOUR_SHODAN_API_KEY --greynoise YOUR_GN_API_KEY
+.EE
+
+Find breaches for an email:
+.EX
+$ osint_recon --target test@example.com --mode email --hibp YOUR_HIBP_API_KEY
+.EE
+
+Look up a GitHub username:
+.EX
+$ osint_recon --target johndoe --mode username
+.EE
+
+.SH AUTHOR
+Written by Matt
+
+.SH BUGS
+Report issues at https://github.com/yourgithub/osint_recon
+
+.SH LICENSE
+This software is released under the MIT License.
