@@ -2,10 +2,10 @@ Here’s a **README.md** for your GitHub repo:
 
 ---
 
-# OSINT Recon Tool  
+# OSINT EZ Button 
 
 ## 🔍 Overview  
-**OSINT Recon Tool** is a Python-based **automated reconnaissance tool** that gathers open-source intelligence (OSINT) on domains, IPs, emails, and usernames using publicly available APIs.  
+**OSINT EZ Button ** is a Python-based **automated reconnaissance tool** that gathers open-source intelligence (OSINT) on domains, IPs, emails, and usernames using publicly available APIs.  
 
 ## 🚀 Features  
 - **Domain Reconnaissance** – WHOIS lookup, VirusTotal domain reputation  
@@ -17,7 +17,7 @@ Here’s a **README.md** for your GitHub repo:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourgithub/osint_recon.git  
+   git clone https://github.com/GrandpaRoger/OSINT-EZ-Button.git
    cd osint_recon
    ```
 2. Install dependencies:  
@@ -59,7 +59,7 @@ This project is licensed under the **MIT License**.
 Pull requests are welcome! Feel free to improve functionality, add more OSINT sources, or enhance performance.  
 
 ## 🐛 Issues  
-Report bugs and feature requests on [GitHub Issues](https://github.com/yourgithub/osint_recon/issues).  
+Report bugs and feature requests on [GitHub Issues](https://github.com/GrandpaRoger/OSINT-EZ-Button/issues).  
 
 ---
 
